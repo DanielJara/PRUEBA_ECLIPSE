@@ -5,9 +5,16 @@ import java.io.File;
 public class Humano {
 	
 	private int id;
+	private int zapato;
 	
 	
 
+	public int getZapato() {
+		return zapato;
+	}
+	public void setZapato(int zapato) {
+		this.zapato = zapato;
+	}
 	public int getId() {
 		return id;
 	}
